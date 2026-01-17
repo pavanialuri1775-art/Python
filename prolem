@@ -1,0 +1,48 @@
+siddu="A"
+print(ord(siddu))
+#
+s="abc"
+ans=0
+for ch in s:
+    print(ord(ch))
+#absolute difference
+a=10
+b=3
+if a>b:
+    print(a-b)
+else:
+    print(b-a)
+#absolute difference b/w two Ascii values
+ch1="a"
+ch2="b"
+if ch1>ch2:
+    print(ord(ch1)-ord(ch2))
+else:
+    print(ord(ch2)-ord(ch1))
+#
+s="abdf"
+ans=0
+
+for i in range(len(s)-1):
+    temp=abs(ord(s[i])-ord(s[i+1]))
+    ans=ans+temp
+
+print(ans)
+#
+arr = [5, 10, 3, 8]
+for i in range(len(arr)-1):
+    if arr[i]>arr[i]+1:
+        print(arr[i]-arr[i+1])
+else:
+    print(arr[i+1]-arr[i])
+#Given a character, print whether it is:
+#Uppercase
+#Lowercase
+#Digit
+ch="d"
+if ord(ch)>=A and ord(ch)<=Z:
+    print("uppercase")
+if ord(ch)>=a and ord(ch)<=z:
+    print("lowercase")
+else:
+    print("other")
