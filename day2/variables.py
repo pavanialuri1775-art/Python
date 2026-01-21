@@ -96,17 +96,3 @@ print(s)
 student={"name":"Pavani",
          "age" : 20
          }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
