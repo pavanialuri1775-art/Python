@@ -41,7 +41,7 @@ comments
     ignored by python interpreter.
 types:
     inline(#)
-    multiline(''',""")
+    multiline(""",""")
 why comments are important
     to understand the code better in further
     Improves code reliability
