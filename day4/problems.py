@@ -35,3 +35,6 @@ o=print(bool(-5))
 p=print(bool(""))
 print(bool("python"))
 
+
+
+     
