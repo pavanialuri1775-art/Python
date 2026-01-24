@@ -32,6 +32,12 @@ print(s[-5:-1])
 b = "Hello, World!"
 print(b[-6:-1])
 
+#reversing a string using step function
+s="pavani"
+print(s[::-1])
+
+
+
 
 
 
