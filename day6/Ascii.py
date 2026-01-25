@@ -23,3 +23,5 @@ s="pavani"
 print(s==s[::-1])
 
 
+
+
