@@ -50,3 +50,16 @@ s = "PyThOn"
 print(s.upper())
 print(s.lower())
 print(s.swapcase()) 
+
+#Print the second last character.
+s="python"
+print(s[-2])
+
+#Print characters from index -5 to -1 .
+s="learning"
+print(s[-5:-1])
+
+#Find the number of times 'a' occurs in "banana".
+s="banana"
+for a in s:
+    print(a,s.count(a))
