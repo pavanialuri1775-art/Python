@@ -1,4 +1,4 @@
-#operators
+#operators : operators are symbols used to perform operations on values. 
 # "+" operator is used to add together two values
 #Example
 print(5+6)
@@ -48,7 +48,7 @@ print(z ** 2)
 
 #
 s="5"
-print(s*2)
+print(s*2) #"string"*number->repetition
 
 
 

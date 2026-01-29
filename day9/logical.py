@@ -1,3 +1,4 @@
+#logical operators:Logical operators are used to combine conditional statements.
 #and:Returns True if both statements are true
 #or:Returns True if one of the statements is true
 #not:Reverse the result, returns False if the result is true
@@ -10,5 +11,5 @@ print(x < 5 or x > 10)  #False
 
 #Reverse the result with not:
 x = 5
-print(not(x > 3 and x < 10)) #
+print(not(x > 3 and x < 10)) #False
 
