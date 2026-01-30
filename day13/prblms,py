@@ -1,0 +1,51 @@
+#Delete the element at index 2
+nums = [5, 10, 15, 20]
+del nums[2]
+print(nums)
+
+#Clear all elements from the list.
+nums = [5, 10, 15, 20]
+nums.clear()
+
+#Print all elements of the list using a for loop
+names = ["Asha", "Ravi", "Pavani"]
+for x in names:
+    print(x)
+    
+#Print each number and its square
+nums = [1, 2, 3, 4, 5]
+for i in nums:
+    print(i,i**2)
+    
+#Print only the even numbers from the list
+nums = [10, 15, 20, 25, 30]
+for x in nums:
+    if x%2==0:
+        print(x)
+    
+
+#Count how many elements are greater than 50
+nums = [10, 60, 80, 25, 90]
+count=0
+for i in nums:
+    if i>50:  
+        count=count+1
+print(count)
+
+#Print the sum of all elements in the list.
+nums = [10, 60, 80, 25, 90]
+sum=0
+for i in nums:
+    sum=sum+i
+print(sum)
+
+#Take a list and replace all negative numbers with 0.
+nums = [10, -60, 80, -25, 90]
+for i in range(len(nums)):
+    if nums[i]<0:
+        nums[i]=0
+print(nums)
+
+
+
+  
