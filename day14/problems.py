@@ -1,6 +1,6 @@
 #problem1
 #sort the list in ascending order
-'''nums = [5,2,9,1,7]
+nums = [5,2,9,1,7]
 nums.sort()
 print(nums) #[1,2,5,7,9]
 
@@ -35,7 +35,7 @@ nums = [4, 1, 3, 2]
 nums.sort()
 print(nums)
 nums.reverse()
-print(nums)'''
+print(nums)
 
 #Sort this list and print the smallest and largest element
 nums = [45, 22, 89, 11, 67]
