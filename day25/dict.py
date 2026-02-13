@@ -40,7 +40,7 @@ print(type(thisdict))#<class 'dict'>
 
 #dict():we can use the dict() constructor to make a dictionary
 thisdict=dict(name="pavani",age=20,country="India")
-print(thisdict)#
+print(thisdict)#{'name': 'pavani', 'age': 20, 'country': 'India'}
 
 
 
