@@ -35,20 +35,14 @@ for x in s:
 d = {"a": 10, "b": 20, "c": 10, "d": 30}
 s=d.values()
 k=list(s)
-print(k.count(10))
+print(k.count(10))'''
 
 #Create a new dictionary with keys and values swapped.
 d = {"a": 10, "b": 20, "c": 30}
 new_d={}
 for x,y in d.items():
     new_d[y]=x
-print(new_d)'''
-
-#Multiply all values by 2 and update the dictionary
-d = {"a": 5, "b": 10, "c": 15}
-k=d.values()
-s=map(int,k)
-print(s*2)
+print(new_d)
 
 
 
