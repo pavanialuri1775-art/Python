@@ -35,8 +35,7 @@ print(d)#{'a': 4, 'b': 9, 'c': 16}
 
 #print the key whose value is maximum
 d = {"a": 10, "b": 30, "c": 20}
-k=list(d)
-print(max(d,key=d.get))
+print(max(d,key=d.get))#b
 
 
 
