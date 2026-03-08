@@ -1,5 +1,5 @@
 #counting vowels in a string
-'''n=input("enter a string:")
+n=input("enter a string:")
 count=0
 vowels="AEIOUaeiou"
 for ch in n:
@@ -13,7 +13,7 @@ largest=0
 for i in thelist:
     if i>largest:
         largest=i
-print(largest)#99'''
+print(largest)#99
 
 #second max number in a list
 thelist=[23,45,66,78,99,33]

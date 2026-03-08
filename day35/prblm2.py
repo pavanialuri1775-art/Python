@@ -1,5 +1,5 @@
 #Factorial of a number
-'''n=int(input("enter a number:"))
+n=int(input("enter a number:"))
 fact=1
 for i in range(1,n+1):
     fact*=i
@@ -10,7 +10,7 @@ n=input("enter a number:")#12345
 rev=""
 for ch in n:
     rev=ch+rev
-print(rev)#54321'''
+print(rev)#54321
 
 #sum of digits
 n=input("Enter a number:")

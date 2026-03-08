@@ -4,3 +4,4 @@ product=1
 for i in n:
     product*=int(i)
 print(product)
+
