@@ -1,13 +1,16 @@
-'''#1 Print numbers from 1 to n and store their sum in a variable
-n=int(input("enter a number:"))
+#variables+loops
+#1 Print numbers from 1 to n and store their sum in a variable
+n=int(input("enter a number:"))#5
 sum=0
 for i in range(1,n+1):
    sum+=i
-print("sum=",sum)'''
+print("sum=",sum)#15
 
 #2 Find the product of numbers from 1 to n
-n=int(input("enter a number:"))
+n=int(input("enter a number:"))#4
 product=1
 for i in range(1,n+1):
     product*=i
-print(product)
+print(product)#24
+
+
