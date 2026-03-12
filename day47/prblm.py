@@ -1,5 +1,5 @@
 #6 check palindrome
-'''num=input("enter a number:")
+num=input("enter a number:")
 i=0
 j=len(num)-1
 is_palindrome=True
@@ -38,7 +38,7 @@ while n>0:
     digit=n%10
     rev=rev*10+digit
     n=n//10
-print(rev)'''
+print(rev)
 
 #10 Armstrong Number:sum of the cubes of its digits equals the number itself
 num=int(input("enter a number:"))
