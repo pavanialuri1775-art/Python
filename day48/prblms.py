@@ -1,8 +1,8 @@
 #for the given list of strings find a str which is a palindromic string
-'''thelist=["pavani","afifa","lavss","madam","racecar"]
+thelist=["pavani","afifa","lavss","madam","racecar"]
 for word in thelist:
     if word==word[::-1]:
-        print(word)'''
+        print(word)
 
 
 #take a list str and cnt the vowels in each str,  if the cnt of vowels is even print the str
