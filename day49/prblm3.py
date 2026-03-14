@@ -22,3 +22,4 @@ while i<len(nums):
     sum+=nums[i]
     i+=1
 print(sum)
+
