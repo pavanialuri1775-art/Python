@@ -24,3 +24,9 @@ def add(a,b):
     return a+b
 result=add(5,8)
 print(result)
+
+#why we use functions
+#reusability:write code once,use many times
+#organization:keeps code clean
+#Modularity:easy to debug and maintain
+#Readability: easier for further understanding
