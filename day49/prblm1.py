@@ -1,5 +1,5 @@
 #1
-'''i=1
+i=1
 while i<=10:
     if i==6:
         break
@@ -13,7 +13,7 @@ while i<=10:
         i+=1
         continue
     print(i,end=" ")
-    i+=1'''
+    i+=1
     
 #3
 i=1
