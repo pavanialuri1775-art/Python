@@ -1,6 +1,6 @@
 #4
 #First duplicate number
-'''nums=[3,5,2,7,5,9,2]
+nums=[3,5,2,7,5,9,2]
 i=0
 found=False
 while i<len(nums):
@@ -33,7 +33,7 @@ while i<len(nums):
     if nums[i]<smallest_num:
         smallest_num=nums[i]
     i+=1
-print(smallest_num)#3'''
+print(smallest_num)#3
 
 #8
 #find the second largest number using in a list
