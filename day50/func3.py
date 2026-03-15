@@ -1,10 +1,10 @@
 #11
 # convert temperatures from Fahrenheit to Celsius
-'''def fahrenheit_to_celsius(fahrenheit):
+def fahrenheit_to_celsius(fahrenheit):
     return (fahrenheit-32)*5/9
 num=float(input("enter temperature in fahrenheit:"))
 celsius=fahrenheit_to_celsius(num)
-print(celsius)'''
+print(celsius)
 
 #12
 def my_function(name):
