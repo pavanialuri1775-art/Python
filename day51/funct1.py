@@ -10,4 +10,6 @@ def pet_info(animal,name):
     print("I have a"+" "+animal)
     print("My dog's name is",name)
 pet_info("dog","buddy")
+
+
     
