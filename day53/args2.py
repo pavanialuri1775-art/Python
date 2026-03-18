@@ -8,4 +8,6 @@ def max_value(*numbers):
             maximum_value=num
     return maximum_value
 print(max_value(23,44,12,66))#66
-print(max_value())   
+print(max_value())#None
+
+ 
