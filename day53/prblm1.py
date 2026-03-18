@@ -16,5 +16,8 @@ def count_even(*args):
         if num%2==0:
             even_count+=1
     return even_count
-print(count_even(1,2,3,4,6))
+print(count_even(1,2,3,4,6))#3
+
+
+
 
