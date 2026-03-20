@@ -46,7 +46,7 @@ def my_fun():
         print(x)
     x=20
     my_func()
-my_fun()
+my_fun()#20
 
     
     
