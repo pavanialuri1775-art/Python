@@ -30,7 +30,7 @@ print(x)#99
 def outer():
     x=7
     def inner():
-        print(x)
+        print(x)#7
     inner()
 outer()
     
