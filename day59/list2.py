@@ -5,3 +5,4 @@ lst=["both"if x%2==0 and x%5==0
      else "five"
      for x in nums]
 print(lst)
+
