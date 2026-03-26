@@ -6,7 +6,7 @@ def decorator(func):
 @decorator
 def greet():
     return "HELLO PAVANI"
-print(greet())
+print(greet())#hello pavani
 
 #
 def square(func):
