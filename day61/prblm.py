@@ -1,4 +1,4 @@
-#converting given string to lower case
+#converting given string to lowercase
 def decorator(func):
     def wrapper(*args,**kwargs):
         return func().lower()
