@@ -1,5 +1,5 @@
 #factorial of a number
-'''def factorial_rec(n):
+def factorial_rec(n):
     if n<=1:
         return n
     return n*factorial_rec(n-1)
@@ -19,7 +19,7 @@ def sum_of_num(n):
     for i in n:
         total+=int(i)
     return total
-print(sum_of_num("1234"))'''
+print(sum_of_num("1234"))
 
 #
 def is_prime(n):
