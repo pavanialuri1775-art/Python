@@ -1,5 +1,5 @@
 #1
-'''def count_even(nums):
+def count_even(nums):
     even_count=0
     for num in nums:
         if num%2==0:
@@ -20,7 +20,7 @@ def first_non_repeating_char(s):
         if freq[ch]==1:
             return ch
     return -1
-print(first_non_repeating_char("aabbcde"))'''
+print(first_non_repeating_char("aabbcde"))
 
 #3
 def is_anagram(s1,s2):
