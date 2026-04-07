@@ -12,4 +12,5 @@ def missing_number(arr,n):
     return total-sum(arr)
 my_list=[1,2,4,5]
 print(missing_number(my_list,5))
+
         
