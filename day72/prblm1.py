@@ -20,12 +20,4 @@ d={"a":1,"b":2}
 for key,value in d.items():
     print(f"{value}:{key}")
     
-#
-def wave(s):
-    n=len(s)
-    for i in range(n):
-        print(" "*i+s[i])
-        for i in range(n,0,-1):
-            print(" "*i+s[i])
-wave(list("CODE"))
-        
+
