@@ -10,3 +10,4 @@ import json
 d={"course":"python","duration":"3 months"}
 s=json.dumps(d)
 print(s)
+
