@@ -4,5 +4,5 @@ def my_fun(n):
         if i%3==0:
             yield i
 n=int(input())
-for j in range(n):
+for j in my_fun(n):
     print(j)
