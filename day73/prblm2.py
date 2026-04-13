@@ -1,12 +1,12 @@
 #write a function that adds hello before function and welcome after function.
-'''def decorator(greet):
+def decorator(greet):
     def wrap():
         print("Hello "+greet()+" Welcome")
     return wrap
 @decorator
 def greet():
     return "pavani"
-greet()'''
+greet()
 
 #
 def dec(func):
