@@ -12,7 +12,7 @@ def rev_fun(s):
         rev=ch+rev
     return rev
 r=input()
-print(rev_fun(r)
+print(rev_fun(r))
 
 #
 def rev_fun(s):
