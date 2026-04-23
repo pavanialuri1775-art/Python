@@ -32,4 +32,4 @@ s = "python"
 it = iter(s)
 print(next(it))   # p
 print(next(it))   # y
-print(next(it))   # t
+print(next(it))   #t
