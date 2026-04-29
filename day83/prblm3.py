@@ -1,12 +1,12 @@
 #ATM Withdrawal
-'''try:
+try:
     total_amount=int(input("enter amount:"))
     with_drawal=int(input("enter amount:"))
     if with_drawal>total_amount:
             raise ValueError("Insufficient Balance")
     print("Remaining Balance:",total_amount-with_drawal)
 except ValueError as e:
-    print(e)'''
+    print(e)
     
 #Bank PIN Validation
 try:
