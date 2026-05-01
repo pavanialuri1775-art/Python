@@ -42,8 +42,10 @@ class Person:
         self.age+=1
         print(f"Happy Birthday! you are now {self.age}")
 p1=Person("pavss",21)
-p1.cel_birthday()
-p1.cel_birthday()
+p1.cel_birthday()#22
+p1.cel_birthday()#23
+
+
 
 
         
