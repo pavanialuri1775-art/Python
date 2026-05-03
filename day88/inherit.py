@@ -21,7 +21,6 @@ print(s1.firstname)
 print(s1.lastname)
 
 
-#
 
  
         
