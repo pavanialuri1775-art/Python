@@ -19,4 +19,5 @@ class Solution:
             else:
                 lst.append(len(word))
         return max(lst)
+    
                 
