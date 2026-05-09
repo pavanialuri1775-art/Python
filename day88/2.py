@@ -19,5 +19,14 @@ class Solution:
             else:
                 lst.append(len(word))
         return max(lst)
+
+class Solution(object):
+    def countPrefixes(self, words, s):
+        count=0
+        for ch in words:
+            if s.startswith(ch):
+                count+=1
+        return count
+        
     
                 
