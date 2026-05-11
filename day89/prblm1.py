@@ -1,13 +1,13 @@
 #prblm1
 #basic inheritance
-'''class Vehicle:
+class Vehicle:
     def start(self):
         print("vehicle started")
 class Car(Vehicle):
     def stop(self):
         print("vehicle stopped")
 s1=Car()
-s1.start()'''
+s1.start()
 
 #prblm2
 class Person:
@@ -19,5 +19,10 @@ class Student(Person):
         super().__init__(name,age)
         self.roll_no=roll_no
 x=Student("Pavss","21",6609)
-def welcome(self):
-    print("I am",self.name,"of age",self.age,"with the roll_no",self.roll_no,"studying at GNIT")
+print(x.name)
+print(x.roll_no)
+print(x.age)
+    
+    
+    
+    
