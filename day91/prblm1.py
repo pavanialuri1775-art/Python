@@ -24,4 +24,8 @@ d1.wild()
 d1.dog()       
 d2=sound() 
 d2.wild()  
-d2.cat()                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+d2.cat()      
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
