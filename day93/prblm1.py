@@ -26,16 +26,13 @@ d1.work()#develops a project
 #3
 class Payment:
     def pay(self,amount):
-        self.amount=amount
-        print(f"i have {self.amount} rupees")
+        print(f"i have {amount} rupees")
 class UPI(Payment):
     def pay(self,amount):
-        self.amount=amount
-        print(f"i pay {self.amount}rs through UPI")
+        print(f"i pay {amount}rs through UPI")
 class Card(Payment):
     def pay(self,amount):
-        self.amount=amount
-        print(f"i pay {self.amount}rs through card")
+        print(f"i pay {amount}rs through card")
 c1=Card()
 c1.pay(25000)#i pay 25000rs through card
 u1=UPI()
