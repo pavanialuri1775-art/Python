@@ -40,7 +40,7 @@ class Intern(Employee):
     def calculate_salary(self):
         return self.salary+self.stipend
 M=Manager("pavnii",50000,10000)
-D=Developer("geetha",40000,5000)
+D=Developer("geetha",40000,5000)    
 I=Intern("keerti",30000,5000)
 print(f"{M.name}'s salary is {M.calculate_salary()}")
 print(f"{D.name}'s salary is {D.calculate_salary()}")
