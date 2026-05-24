@@ -1,0 +1,73 @@
+#1 Print numbers from 1 to 100.
+n =int(input("enter a number:"))
+for i in range (1,n+1):
+    print(i,end= " ")
+    
+#2 Print even numbers from 1 to 50.
+n=int(input("enter a number:"))
+for i in range(1,n+1):
+    if i%2==0:
+        print(i,end=" ")
+        
+#3 Print odd numbers from 1 to 50.
+n=int(input("enter a number:"))
+for i in range(1,n+1):
+    if i%2!=0:
+        print(i,end=" ")
+        
+#4 Find sum of first n natural numbers.
+n=int(input("enter a number:"))
+total=0
+for i in range(1,n+1):#10
+    total+=i
+print("total:",total)#55
+
+#5 Find factorial of a number.
+n=int(input("enter a number:"))
+a=1
+for num in range(1,n+1):
+        a*=num
+print(a)
+
+#6 Check whether a number is positive, negative, or zero.
+n=int(input("enter a number:"))
+if n=="0":
+    print("number is zero")
+elif n%2==0:
+    print("number is even")
+else:
+    print("number is odd")
+    
+#7 Check whether a number is even or odd.
+n=int(input("enter a number:"))
+if n%2==0:
+    print("number is even")
+else:
+    print("number is odd")
+    
+#Find largest of 3 numbers.
+a=50
+b=56
+c=45
+if a>b and a>c:
+    print("a is greater")
+if b>c and b>a:
+    print("b is greater")
+if c>a and c>b:
+    print("c is greater")
+    
+#9 Count digits in a number.
+n=input("enter a number:")
+count=0
+for ch in n:
+    count+=1
+print(count)
+
+#10 Swap two numbers without using third variable.
+a=5
+b=6
+temp=a
+a=b
+b=temp
+print(a)
+print(b)
