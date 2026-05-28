@@ -22,7 +22,7 @@ def add(*numbers):
     print(sum(numbers))
 add(1,2,3,4)
 
-#) **kwargs
+# **kwargs
 #Stores multiple keyword arguments in a dictionary.
 def details(**data):
     print(data)
