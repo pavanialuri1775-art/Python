@@ -31,7 +31,7 @@ for kr in matrix:
         total+=ele
 print(total)
 
-#4 Row Sum
+#4Row Sum
 matrix = [
     [1, 2, 3],
     [4, 5, 6]
