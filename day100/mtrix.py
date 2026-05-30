@@ -1,5 +1,5 @@
 #1 Create and print this matrix:
-'''mat=[]
+mat=[]
 rows=int(input("Enter rows: "))
 columns=int(input("Enter columns:"))
 for i in range(rows):
@@ -40,7 +40,7 @@ for i in range(len(matrix)):
     total=0
     for ele in matrix[i]:
         total+=ele
-    print("Row", i + 1, "sum =", total)'''
+    print("Row", i + 1, "sum =", total)
     
 #5 Column Sum
 matrix=[
