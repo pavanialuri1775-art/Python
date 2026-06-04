@@ -1,3 +1,4 @@
+#1
 def longestCommonPrefix(strs):
         prefix = strs[0]
         for word in strs[1:]:
