@@ -10,7 +10,7 @@ for i in range(rows):
     mat.append(row)
 print(mat)
 
-#2. Access Elements
+#2Access Elements
 matrix = [
     [2, 4, 6],
     [1, 3, 5],
