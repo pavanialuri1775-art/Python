@@ -42,7 +42,7 @@ for i in range(len(matrix)):
         total+=ele
     print("Row", i + 1, "sum =", total)
     
-#5 Column Sum
+#5Column Sum
 matrix=[
  [1, 2, 3],
  [4, 5, 6],
