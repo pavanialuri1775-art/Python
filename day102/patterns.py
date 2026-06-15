@@ -19,10 +19,18 @@ for i in range(4,0,-1):
 for i in range(1,5):
     for j in range(1,i+1):
         print(j,end="")
-    print()'''
+    print()
 
 #same number pattern
 for i in range(1,5):
-    for j in range(i,i+1):
-        print(j*j,end="")
+    for j in range(i):
+        print(i,end="")
+    print()'''
+    
+#
+for i in range(1,4):
+    for j in range(1,i+1):
+        print(j,end="")
+        if j!=i:
+            print("*",end="")
     print()
