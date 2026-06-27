@@ -1,8 +1,8 @@
-#print values upto 5
+#1 print values upto 5
 for i in range(3):
     print(i)
     
-#while  loop
+#2 while  loop
 i=0
 while i<=3:
     print(i)
