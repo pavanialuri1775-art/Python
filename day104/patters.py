@@ -44,3 +44,14 @@ for i in range(r-1,-1,-1):
         print("*",end="")
     print()
     
+#Regex ---------------------------------------------------
+
+import re
+
+text = input()# hi my email is bhavani.m@gmail.com
+pattern = r"[\w.]+@[\w.]+\.\w+"
+num = r"[\d+]+"
+
+emails = re.findall(pattern, text)
+n = re.findall(num, text)
+print(emails, n)
