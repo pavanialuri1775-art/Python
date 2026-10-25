@@ -2,10 +2,10 @@
 #python already has permutation function
 #python provides it through itertools module
 
-'''from itertools import permutations
+from itertools import permutations
 arr=[1,2,3,4]
 for p in permutations(arr):
-    print(p)'''
+    print(p)
     
 #if we want arrngements of only 2 elements
 from itertools import permutations
