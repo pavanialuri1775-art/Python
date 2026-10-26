@@ -44,7 +44,7 @@ for i in range(r-1,-1,-1):
         print("*",end="")
     print()
     
-# Regex ---------------------------------------------------
+#Regex ---------------------------------------------------
 
 import re
 
@@ -55,3 +55,4 @@ num = r"[\d+]+"
 emails = re.findall(pattern, text)
 n = re.findall(num, text)
 print(emails, n)
+
